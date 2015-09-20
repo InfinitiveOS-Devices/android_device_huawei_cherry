@@ -270,3 +270,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Inherit proprietary blobs
 $(call inherit-product-if-exists, vendor/huawei/cherry/cherry-vendor.mk)
+
+# NFC
+PRODUCT_BOOT_JARS += \
+	com.android.nfc.helper \
+	com.android.qcom.nfc_extras
+
+PRODUCT_PACKAGES += \
+	nfc-nci.conf \
+	Tag
+
+PRODUCT_COPY_FILES += \
+	frameworks/native/data/etc/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
+	frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
+	packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt
+
