@@ -271,8 +271,11 @@
 
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
-
+    
+    <!-- Enable hardware buttons on Infinitve-OS -->
+    <integer name="config_deviceHardwareKeys">71</integer>
+    
     <!-- Performance profiles -->
-    <string name="config_perf_profile_prop">powerhal</string>
-    <string name="config_perf_profile_default_entry">1</string>
+    <!--<string name="config_perf_profile_prop">powerhal</string>
+    <string name="config_perf_profile_default_entry">1</string>-->
 </resources>

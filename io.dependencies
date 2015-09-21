@@ -1,0 +1,32 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_kernel_huawei_msm8916",
+    "target_path": "kernel/huawei/msm8916",
+    "revision":    "cm-12.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "TheMuppets/proprietary_vendor_huawei",
+    "target_path": "vendor/huawei",
+    "revision":    "cm-12.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "InfinitiveOS-Devices/android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "revision":    "io-1.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "InfinitiveOS-Devices/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision":    "io-1.0"
+  },
+  {
+    "remote":     "github",
+    "repository": "CyanogenMod/android_external_mm-dash",
+    "target_path": "external/mm-dash",
+    "revision":   "cm-12.1"
+  }
+]
