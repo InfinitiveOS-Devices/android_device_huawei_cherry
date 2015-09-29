@@ -6,6 +6,9 @@ TARGET_SCREEN_WIDTH := 720
 # Inherit from these products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Enhanced NFC
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/huawei/cherry/msm8916_32.mk)
 
