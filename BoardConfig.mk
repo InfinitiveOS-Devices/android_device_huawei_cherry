@@ -192,5 +192,8 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+#Infinitive optimizations
+INFINITE := true
+
 # inherit from the proprietary version
 -include vendor/huawei/cherry/BoardConfigVendor.mk
