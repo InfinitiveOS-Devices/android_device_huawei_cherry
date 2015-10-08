@@ -939,3 +939,7 @@ service RIDL /system/vendor/bin/RIDLClient.exe
 service rmt_oeminfo /system/bin/rmt_oeminfo
     class core
     user root
+
+#Notification light fix
+service libqmi_oem_main /system/bin/libqmi_oem_main
+    class main
