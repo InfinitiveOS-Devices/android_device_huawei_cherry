@@ -195,5 +195,16 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 #Infinitive optimizations
 INFINITE := true
 
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-e$
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9
+
+# TW Theme
+TW_THEME := portrait_hdpi
+
 # inherit from the proprietary version
 -include vendor/huawei/cherry/BoardConfigVendor.mk
